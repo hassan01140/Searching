@@ -1,0 +1,49 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile Phone Prices</title>
+</head>
+<body>
+  <h2>Select a mobile company:</h2>
+  <select id="mobileCompany" onchange="showMobilesAndPrices()">
+    <option value="">-- Select a company --</option>
+    <option value="apple">Apple</option>
+    <option value="samsung">Samsung</option>
+    <option value="oppo">Oppo</option>
+    <option value="vivo">Vivo</option>
+
+  </select>
+
+  <div id="mobilesAndPrices">
+  </div>
+
+  <script src="your_script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile Phone Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mobile Phone Search</h1>
+    <div class="search-container">
+      <select id="searchByDropdown">
+        <option value="Model">Model</option>
+        <option value="Company">Company</option>
+        <option value="Price">Price</option>
+        <option value="Camera">Camera</option>
+        <!-- Add more options as needed -->
+      </select>
+      <input type="text" id="searchInput" placeholder="Enter your search term...">
+      <button onclick="filterMobiles()">Search</button>
+    </div>
+    <div id="results">
+      <!-- The filtered results will be displayed here -->
+    </div>
+  </div>
+  <script src="your_script.js"></script>
+</body>
+</html>
